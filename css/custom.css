@@ -1,0 +1,27 @@
+/* 1. 自动表情格式 (针对公共文件夹中的小图标) */
+/* 只要图片路径以 #icon 结尾，就会自动应用此样式 */
+img[src$="#emoji"] {
+    width: 50px !important;            /* 统一宽度为50px */
+    height: auto !important;           /* 高度自动缩放，防止变形 */
+    display: inline-block !important;  /* 让图片可以嵌入文字中间 */
+    vertical-align: middle !important; /* 修正对齐，让表情在文字中心线上 */
+    margin: 0 4px !important;          /* 左右留出一点空隙，不至于太挤 */
+    border: none !important;           /* 去掉可能存在的边框 */
+    box-shadow: none !important;       /* 去掉阴影，保持纯净 */
+}
+
+/* 2. 黑幕 (防剧透/隐藏文字) */
+.heimu {
+    background-color: #252525;         /* 遮盖颜色，可根据暗色模式微调 */
+    color: #252525;                    /* 平时文字颜色与背景一致 */
+    text-shadow: none;                 /* 去掉文字阴影，防止隐约看到轮廓 */
+    transition: color 0.3s ease;       /* 增加 0.3 秒淡入淡出效果，更高级 */
+    cursor: pointer;                   /* 鼠标放上去显示小手形状，暗示可交互 */
+    border-radius: 2px;                /* 稍微圆角，更美观 */
+    padding: 0 2px;
+}
+
+/* 鼠标悬停时的状态 */
+.heimu:hover {
+    color: #ffffff !important;         /* 鼠标放上去文字变白 */
+}
