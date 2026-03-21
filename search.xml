@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>对校园网宽带的探索</title>
+      <link href="/2026/03/21/%E5%AF%B9%E6%A0%A1%E5%9B%AD%E7%BD%91%E5%AE%BD%E5%B8%A6%E7%9A%84%E6%8E%A2%E7%B4%A2/"/>
+      <url>/2026/03/21/%E5%AF%B9%E6%A0%A1%E5%9B%AD%E7%BD%91%E5%AE%BD%E5%B8%A6%E7%9A%84%E6%8E%A2%E7%B4%A2/</url>
+      
+        <content type="html"><![CDATA[<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>&emsp;&emsp;下午仔细思考了校园宽带的账号登陆上网的实现方式（pppoe拨号），发现可以通过软路由账户登录校园网，这样只需要1个账号，在ua2f，dogcom插件的帮助下可以在宿舍内组件局域网，也就是在这个用户登录里面组件内网，，即可实现一个账号登陆，多台设备上网。</p><h2 id="设备及系统选择"><a href="#设备及系统选择" class="headerlink" title="设备及系统选择"></a>设备及系统选择</h2><p>&emsp;&emsp;刚开始我是打算用中兴E2633路由器的，但是因为没有找到合适的固件用来刷入openwrt，所以我打算使用360t7来刷入openwrt软路由系统，实现上述功能。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我的高三生活</title>
       <link href="/2026/03/20/%E6%88%91%E7%9A%84%E9%AB%98%E4%B8%89%E7%94%9F%E6%B4%BB/"/>
       <url>/2026/03/20/%E6%88%91%E7%9A%84%E9%AB%98%E4%B8%89%E7%94%9F%E6%B4%BB/</url>
