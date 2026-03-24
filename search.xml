@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>关于软路由的折腾</title>
+      <link href="/2026/03/24/%E5%85%B3%E4%BA%8E%E8%BD%AF%E8%B7%AF%E7%94%B1%E7%9A%84%E6%8A%98%E8%85%BE/"/>
+      <url>/2026/03/24/%E5%85%B3%E4%BA%8E%E8%BD%AF%E8%B7%AF%E7%94%B1%E7%9A%84%E6%8A%98%E8%85%BE/</url>
+      
+        <content type="html"><![CDATA[<h2 id="经过了2天的折腾，我最终完成了实现单账号登陆校园网实现多人-上网"><a href="#经过了2天的折腾，我最终完成了实现单账号登陆校园网实现多人-上网" class="headerlink" title="经过了2天的折腾，我最终完成了实现单账号登陆校园网实现多人&amp;上网"></a>经过了2天的折腾，我最终完成了实现单账号登陆校园网实现多人&amp;上网</h2><p>先说说失败的方案吧，最初花88元购买的360t7上已经装好了大分区的uboot引导和基于immortalwrt21.02分支的immortalwrt-mt798x项目介绍</p><p><code>https://cmi.hanwckf.top/p/immortalwrt-mt798x/</code></p><p><code>https://github.com/hanwckf/immortalwrt-mt798x</code></p><p>但是这个固件有个问题，就是无论如何也无法装上ua2f或者ua3f（<code>https://github.com/Zxilly/UA2F</code>），所以我就打起了更换系统的心思，最后我找到了内置clash的immortal-factory.bin文件，但是这个系统没有把硬件加速，软件加速放到图形界面中。追求完美的我又找到了kwrt(<code>https://openwrt.ai/</code>)，这是一个方便的网站，可以自己打包需要的插件，我第一次只打包了一个ttyd终端，并且这个系统用了最新的firewall防火墙而不是iptables，而且流量打包软件是passwall而不是openclash。我只能又做了一个更全面的kwrt，这次在Gemini的指导下，我打包了sqm（流量限制），计划任务等很有用的插件，并且用iptables替代了firewall，还在软件包中成功下载了ua2f（虽然最后没用上）</p><p>其实放眼我的折腾全过程，其实本来不用刷这么多系统搞得这么麻烦的，本来简单的配置就可以了，但是我就太执着于我的设想了。其实一开始的immortalwrt已经能很好地满足我的需求了。</p><p>最后放出我和gemini全部对话</p><p>&#96;&#96;</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>校园网自动登录的curl命令</title>
       <link href="/2026/03/23/%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95%E7%9A%84curl%E5%91%BD%E4%BB%A4/"/>
       <url>/2026/03/23/%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95%E7%9A%84curl%E5%91%BD%E4%BB%A4/</url>
