@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>家庭网络的最终完善</title>
+      <link href="/2026/04/05/%E5%AE%B6%E5%BA%AD%E7%BD%91%E7%BB%9C%E7%9A%84%E6%9C%80%E7%BB%88%E5%AE%8C%E5%96%84/"/>
+      <url>/2026/04/05/%E5%AE%B6%E5%BA%AD%E7%BD%91%E7%BB%9C%E7%9A%84%E6%9C%80%E7%BB%88%E5%AE%8C%E5%96%84/</url>
+      
+        <content type="html"><![CDATA[<h2 id="现在通过路由器桥接解决了二层nat的问题"><a href="#现在通过路由器桥接解决了二层nat的问题" class="headerlink" title="现在通过路由器桥接解决了二层nat的问题"></a>现在通过路由器桥接解决了二层nat的问题</h2><p>也就是说现在3个宽带的拨号和dhcp全都交给光猫去做，当然这其实我本来是想用主路由来实现拨号的，但是奈何弱电箱的空间问题，我不得不暂时使用光猫来做主路由。</p><p>之后我打算购入一台360t7来作主路由拨号并分配IP，但是还是需要把光猫改为桥接模式，把所有网络数据包的分发都交给主路由解决，然后通过802协议实现等同mesh效果。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>家庭网络彻底完工</title>
       <link href="/2026/04/03/%E5%AE%B6%E5%BA%AD%E7%BD%91%E7%BB%9C%E5%BD%BB%E5%BA%95%E5%AE%8C%E5%B7%A5/"/>
       <url>/2026/04/03/%E5%AE%B6%E5%BA%AD%E7%BD%91%E7%BB%9C%E5%BD%BB%E5%BA%95%E5%AE%8C%E5%B7%A5/</url>
