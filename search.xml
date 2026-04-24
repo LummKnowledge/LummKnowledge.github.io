@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>这几天的思考</title>
+      <link href="/2026/04/24/%E8%BF%99%E5%87%A0%E5%A4%A9%E7%9A%84%E6%80%9D%E8%80%83/"/>
+      <url>/2026/04/24/%E8%BF%99%E5%87%A0%E5%A4%A9%E7%9A%84%E6%80%9D%E8%80%83/</url>
+      
+        <content type="html"><![CDATA[<h2 id="服务器和网络方面"><a href="#服务器和网络方面" class="headerlink" title="服务器和网络方面"></a>服务器和网络方面</h2><p>这几天我和gemini深度思考了cloud flare的策略，并决定使用cf tunnel的方式来把我在家的服务器投射到公网上，并通过不同二级域名来实现进入不同的容器，然后回去之后要先把Ubuntu的snap包管理器给删掉，之后更新硬盘策略，增大内存读取，避免更多的硬盘io，然后就是安装cloud flare容器，并且增大qbit的内存缓存到2g或者3g。</p><h2 id="关于sillytavern"><a href="#关于sillytavern" class="headerlink" title="关于sillytavern"></a>关于sillytavern</h2><p>这几天，不对准确来说是上上周2左右我做完了类脑的身份验证答题，这几天找到了很多好玩的角色卡，虽然还没开始玩，但是光是看设定就觉得很爽了。</p><h2 id="关于api"><a href="#关于api" class="headerlink" title="关于api"></a>关于api</h2><p>今天上午deepseekv4发布，怎么说呢。算是出乎预料了，感觉十分强大，就是pro模型的价格实在是太贵了，官方说下半年国产算力卡会交付，价格会大幅下降，希望能回到v3.2的价格。还有，今天把cursor换成了vscode的roocode扩展，实现了真正的使用自己的api，不过vibecoding确实很消耗token，光是打包就花了1元token费，相当的贵<del>而且没打包成功</del>&#x2F;</p><p>怎么说呢，总之就是这几天我从本来的期待满满到现在有点麻了也就过了短短的3天，总之还是希望下半年deepseekv4pro价格能在下半年有个极大幅下调吧，能恢复到v3.2的价格就是最好的了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我的高一与高二生活(续)</title>
       <link href="/2026/04/22/%E6%88%91%E7%9A%84%E9%AB%98%E4%B8%80%E4%B8%8E%E9%AB%98%E4%BA%8C%E7%94%9F%E6%B4%BB-%E7%BB%AD/"/>
       <url>/2026/04/22/%E6%88%91%E7%9A%84%E9%AB%98%E4%B8%80%E4%B8%8E%E9%AB%98%E4%BA%8C%E7%94%9F%E6%B4%BB-%E7%BB%AD/</url>
