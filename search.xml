@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>五一的计划</title>
+      <link href="/2026/04/29/%E4%BA%94%E4%B8%80%E7%9A%84%E8%AE%A1%E5%88%92/"/>
+      <url>/2026/04/29/%E4%BA%94%E4%B8%80%E7%9A%84%E8%AE%A1%E5%88%92/</url>
+      
+        <content type="html"><![CDATA[<p>怎么说呢，时间过得还是挺快的，我记得4月初清明那会，我才开始折腾网络，到4月17到19号，我给家里老电脑装上了ubuntu server，到这个五一我打算换成Debian13.4，居然只有不到一个月。</p><h2 id="首先是Debian"><a href="#首先是Debian" class="headerlink" title="首先是Debian"></a>首先是Debian</h2><p>我准备回把Ubuntu server LTS换成Debian以求更高的性能和更纯净的系统。</p><h3 id="装完Debian后的配置"><a href="#装完Debian后的配置" class="headerlink" title="装完Debian后的配置"></a>装完Debian后的配置</h3><pre><code>1.首先是要把两块hdd挂载上去，我已经买好了减震螺丝2.接着配置好IO策略，删掉一切不必要的IO例如时间3.然后等买的千兆pcie网卡到货后将这张卡换成主网卡4.然后部署docker，需要安装protain作管理，然后是qbit，mediawiki，file系统，silly tavern...</code></pre><p>计划大致就是这样，至于网络，还是等之后再说吧，等暑假有空了买一个刷好了uboot的360t7来专门拨号，把宽带光猫改为桥接，这样就完美了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>这几天的思考</title>
       <link href="/2026/04/24/%E8%BF%99%E5%87%A0%E5%A4%A9%E7%9A%84%E6%80%9D%E8%80%83/"/>
       <url>/2026/04/24/%E8%BF%99%E5%87%A0%E5%A4%A9%E7%9A%84%E6%80%9D%E8%80%83/</url>
