@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>debian服务器落成，mediawiki部署完成</title>
+      <link href="/2026/05/01/debian%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%90%BD%E6%88%90%EF%BC%8Cmediawiki%E9%83%A8%E7%BD%B2%E5%AE%8C%E6%88%90/"/>
+      <url>/2026/05/01/debian%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%90%BD%E6%88%90%EF%BC%8Cmediawiki%E9%83%A8%E7%BD%B2%E5%AE%8C%E6%88%90/</url>
+      
+        <content type="html"><![CDATA[<h1 id="就在昨天夜晚，我部署好了我的Debian服务器"><a href="#就在昨天夜晚，我部署好了我的Debian服务器" class="headerlink" title="就在昨天夜晚，我部署好了我的Debian服务器"></a>就在昨天夜晚，我部署好了我的Debian服务器</h1><p>准确来说是吧原先的ubuntuserverlts换成了Debian13.4，毕竟Debian更稳定，昨天晚上就配置好了两块机械硬盘，把qbit，protainer，sillytavern等容器部署好了，然后今天我将mediawiki与mariadb数据库捆绑部署到了一起。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>五一的计划</title>
       <link href="/2026/04/29/%E4%BA%94%E4%B8%80%E7%9A%84%E8%AE%A1%E5%88%92/"/>
       <url>/2026/04/29/%E4%BA%94%E4%B8%80%E7%9A%84%E8%AE%A1%E5%88%92/</url>
